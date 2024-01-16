@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-osman-arabacı-19535151.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    background: silver;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-left: 20px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-content p {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    background: mediumblue;
+    color: #fff;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    background: #fff;
+    color: mediumblue;
+}
